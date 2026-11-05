@@ -10,8 +10,8 @@ binds {
 
     // ─── Applications ───
     Mod+Return                          hotkey-overlay-title="Open Terminal: Foot" { spawn "foot"; }
-    Mod+B                               hotkey-overlay-title="Open Browser: Helium" { spawn "helium-browser"; }
-    Mod+Shift+B                         hotkey-overlay-title="Open Browser Incognito: Helium" { spawn "helium-browser" "--incognito"; }
+    Mod+B                               hotkey-overlay-title="Open Browser: Zen" { spawn "zen-browser"; }
+    Mod+Shift+B                         hotkey-overlay-title="Open Browser Incognito: Zen" { spawn "zen-browser" "--private-window"; }
 
     // --- Noctalia ---
     Mod+Shift+Return                    hotkey-overlay-title="Open Wallpaper Selector: noctalia wallpaper toggle" { spawn-sh "noctalia msg panel-toggle wallpaper"; }
